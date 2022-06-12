@@ -1,0 +1,33 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "simple API using native node modules",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Freitas/web-api-node.git"
+  },
+  "keywords": [
+    "web",
+    "api",
+    "restful",
+    "node.js",
+    "N-Layers",
+    "native",
+    "node",
+    "modules",
+    "clean",
+    "code"
+  ],
+  "author": "Davi Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D-Freitas/web-api-node/issues"
+  },
+  "homepage": "https://github.com/D-Freitas/web-api-node#readme"
+}
