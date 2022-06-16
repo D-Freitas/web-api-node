@@ -1,12 +1,12 @@
 import test from 'node:test'
 import assert from 'node:assert'
-const callTracker = new assert.CallTracker()
-process.on('exit', () => callTracker.verify())
-
 import { routes } from '../../../src/routes/books.route.js'
 import { DEFAULT_HEADER } from '../../../src/utils/util.js'
 
-test('Hero routes - endpoints test suite', async (t) => {
+const callTracker = new assert.CallTracker()
+process.on('exit', () => callTracker.verify())
+
+test('Book routes - endpoints test suite', async (t) => {
   await t.test('it should call /books:get route', async () => {
     const databaseMock = [{
       "id": "b326753f-086c-4207-b425-a58fef3c9432",
